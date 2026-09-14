@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  nginx-proxy-manager:
+    image: jc21/nginx-proxy-manager:latest[cite: 2]
+    container_name: nginx-proxy-manager
+    restart: unless-stopped[cite: 2]
+    ports:
+      - '80:80'   # Public HTTP Ingress
+      - '81:81'   # Admin Management UI
+      - '443:443' # Public HTTPS Ingress
+    volumes:
+      - npm-data:/data[cite: 2]
+      - npm-letsencrypt:/etc/letsencrypt[cite: 2]
+    extra_hosts:
+      - "host.docker.internal:host-gateway"[cite: 2]
+
+volumes:
+  npm-data:
+    name: npm-data[cite: 2]
+  npm-letsencrypt:
+    name: npm-letsencrypt[cite: 2]
