@@ -1,0 +1,9 @@
+data/
+letsencrypt/
+npm-data/
+npm-letsencrypt/
+
+.env
+*.log
+.DS_Store
+Thumbs.db
