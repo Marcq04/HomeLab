@@ -17,7 +17,7 @@
 | **Guest / IoT** | Subnet Isolated | Guest & Smart Devices | Isolated from core LAN and DMZ |
 
 
-![Home Lab Network Diagram](images/network-diagram.png)
+![Home Lab Network Diagram](images/network_diagram_DNS.png)
 ![VLAN tagging](images/VLAN_tagging.png)
 
 ---
