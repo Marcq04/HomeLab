@@ -14,7 +14,7 @@
 | :--- | :--- | :--- | :--- |
 | **VLAN 1** | `192.168.8.0/24` | Primary LAN | Full local network access |
 | **VLAN 70** | `192.168.70.0/24` | Isolated DMZ Zone | Hosts media server; inbound WAN access allowed, blocked from initiating connections to local LAN |
-| **VLAN 67** | `192.168.67.0/24` | Isolated KID Zone | Provides another dedicated network specifically towards kids with restriction using AdGuard Home DNS |
+| **VLAN 67** | `192.168.67.0/24` | Isolated KID Zone | Provides another dedicated network specifically towards kids with restricted access to certain domains and apps using AdGuard Home DNS |
 | **Guest / IoT** | Subnet Isolated | Guest & Smart Devices | Isolated from core LAN and DMZ |
 
 
