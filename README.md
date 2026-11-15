@@ -19,7 +19,7 @@
 
 
 ![Home Lab Network Diagram](images/updated_diagram.png)
-![VLAN tagging](images/VLAN_tagging.png)
+![VLAN tagging](images/VLAN_tagging2.png)
 
 ---
 
